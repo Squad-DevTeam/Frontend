@@ -98,7 +98,7 @@ function SignupS() {
 
     if (formIsValid) {
       try {
-        const response = await axios.post("https://sleepy-erin-trout.cyclic.app", {
+        const response = await axios.post("https://sleepy-erin-trout.cyclic.app/signup", {
           email,
           username,
           password,

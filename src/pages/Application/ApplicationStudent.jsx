@@ -67,7 +67,7 @@ const ApplicationForm = () => {
     }
 
     try {
-      const response = await axios.post("https://sleepy-erin-trout.cyclic.app", {
+      const response = await axios.post("https://sleepy-erin-trout.cyclic.app/apply-student", {
         email,
         idnumber,
         dateOfBirth,
