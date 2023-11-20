@@ -12,7 +12,7 @@ const ApplicationForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("/api/applications", {
+      const response = await axios.post("https://sleepy-erin-trout.cyclic.app", {
         email,
         idnumber: idNumber,
         dateOfBirth,

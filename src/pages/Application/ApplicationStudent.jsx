@@ -67,7 +67,7 @@ const ApplicationForm = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:4000/apply-student", {
+      const response = await axios.post("https://sleepy-erin-trout.cyclic.app", {
         email,
         idnumber,
         dateOfBirth,

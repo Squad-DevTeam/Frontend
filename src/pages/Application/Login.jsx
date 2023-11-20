@@ -34,7 +34,7 @@ function LoginS() {
   }, []);
 
   const fetchUsers = () => {
-    axios.get("http://localhost:4000/users").then((res) => {
+    axios.get("https://sleepy-erin-trout.cyclic.app").then((res) => {
       setUsers(res.data);
     });
   };
@@ -50,7 +50,7 @@ function LoginS() {
     }
 
     try {
-      const response = await axios.post("http://localhost:4000/login", {
+      const response = await axios.post("https://sleepy-erin-trout.cyclic.app", {
         idnumber,
         password,
       });
